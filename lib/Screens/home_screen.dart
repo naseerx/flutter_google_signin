@@ -41,11 +41,11 @@ class _HomeScreenState extends State<HomeScreen> {
       });
       nextPage();
       if (kDebugMode) {
-        print("Signed in as ${user?.displayName}");
+        print("Signed in as user:  ${user?.displayName}");
       }
     } catch (e) {
       if (kDebugMode) {
-        print("Error signing in with Google: $e");
+        print("Error while signing in with Google: $e");
       }
     }
   }
@@ -54,7 +54,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('GOOGLE SIGNIN'),
+        title: const Text('GOOGLE SIGNIN PRACTICE'),
       ),
       body: Center(
         child: SizedBox(

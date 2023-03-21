@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Google Sign In',
+      title: 'Flutter Google SignIn',
       theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
+        primarySwatch: Colors.amber,
       ),
       home: const HomeScreen(),
     );
